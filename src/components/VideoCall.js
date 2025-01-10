@@ -8,7 +8,7 @@ const VideoCall = ({ room }) => {
   const chatbox = useRef(null);
   const chatMessages = useRef(null);
   const chatInput = useRef(null);
-  const socket = io("http://localhost:5000"); // Replace with your backend server URL
+  const socket = io("https://succ-woad.vercel.app/"); // Replace with your backend server URL
 
   let localStream;
   let peerConnection;
